@@ -18,11 +18,11 @@ class AbstractCrudService<T, K> {
     }
 
     public Optional<T> findOne(Predicate predicate) {
-        return Optional.empty();
+        return repository.findOne(predicate);
     }
 
     public Iterable<T> findAll(Predicate predicate) {
-        return repository.findAll();
+        return repository.findAll(predicate);
     }
 
     public Iterable<T> findAll(Predicate predicate, Sort sort) {

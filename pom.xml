@@ -17,6 +17,10 @@
 	<properties>
 		<java.version>1.8</java.version>
         <querydsl.version>4.2.2</querydsl.version>
+		<sonar.projectKey>tharait_spring-boot-rest-api-demo</sonar.projectKey>
+		<sonar.organization>tharait</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.login>037c05e28a21d46a815365e3f4e987292065fd0d</sonar.login>
 	</properties>
 
 	<dependencies>

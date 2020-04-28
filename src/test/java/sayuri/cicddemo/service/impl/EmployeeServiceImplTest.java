@@ -25,7 +25,7 @@ class EmployeeServiceImplTest {
         Employee item = randomEmployee(false);
         Employee saved = employeeService.save(item);
         assertNotNull(saved.getId());
-        assertEquals(saved.getVer(), 0);
+        assertEquals(0, saved.getVer());
     }
 
     private Employee randomEmployee(boolean persistent) {
