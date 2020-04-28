@@ -10,8 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 import sayuri.cicddemo.domain.Employee;
 import sayuri.cicddemo.service.EmployeeService;
 
-import java.util.List;
-
 
 @RestController
 @RequestMapping("/employee")
